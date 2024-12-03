@@ -3,7 +3,7 @@ spring:
     name: acl
   data:
     mongodb:
-      uri: mongodb://admin:admin@localhost:27017/dataintegration
+      uri: mongodb://diuser:diuser@localhost:27017/dataintegration
       database: dataintegration
   security:
     oauth2:

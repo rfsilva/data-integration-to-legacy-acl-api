@@ -13,3 +13,10 @@ spring:
 
 server:
   port: 8083
+
+service:
+  token-path: http://localhost:8080/realms/data-integration-realm/protocol/openid-connect/token
+  legacy-system:
+    client-id: legacy-system-api
+    client-secret: RP38Ppn3y9DGT6FwYigkvKmZfzAQd2JR
+    host: http://localhost:8084/api

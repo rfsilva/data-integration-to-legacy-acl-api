@@ -45,6 +45,7 @@ public class LegacyObjectClient extends WebServiceGatewaySupport {
         legacyObject.setOption(mainObject.getOption());
         legacyObject.setMainData(mainObject.getMainData());
         legacyObject.setStepCode(mainObject.getStepCode());
+        legacyObject.setNetworkIpAddress(mainObject.getNetworkIpAddress());
 
         InsertObject request = new InsertObject();
         request.setObject(legacyObject);
